@@ -33,7 +33,5 @@ public class Uyg1Activity extends AppCompatActivity {
         boolean degisken1 = true;
         boolean degisken2 = false;
         System.out.println("Değişken 1: " +degisken1 + "Değişken 2: " + degisken2);
-
-
     }
 }
