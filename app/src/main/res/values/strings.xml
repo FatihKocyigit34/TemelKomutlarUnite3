@@ -15,5 +15,7 @@
     <string name="char_veri_tipini_test_et">Char Veri Tipini Test Et</string>
     <string name="ascii_kodunu_test_et">ASCII Kodunu Test Et</string>
     <string name="ondalikli_sayiyi_test_et">Ondalıklı Sayıyı Test Et</string>
+    <string name="calistir">Çalıştır</string>
+    <string name="calistirildi">Çalıştırıldı</string>
 
 </resources>

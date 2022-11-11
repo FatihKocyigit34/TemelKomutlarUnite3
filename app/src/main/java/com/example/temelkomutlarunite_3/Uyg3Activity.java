@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
@@ -12,6 +13,7 @@ public class Uyg3Activity extends AppCompatActivity {
 
     Button btnChar;
     Button btnGeri;
+    TextView txtCalistir;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -19,6 +21,7 @@ public class Uyg3Activity extends AppCompatActivity {
         setContentView(R.layout.uyg3_activity);
         btnChar = findViewById(R.id.btnChar);
         btnGeri = findViewById(R.id.btnGeri);
+        txtCalistir = findViewById(R.id.txtCalistir);
 
         btnChar.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -29,6 +32,7 @@ public class Uyg3Activity extends AppCompatActivity {
                 System.out.println("Yeni Karakter İlk İşlem: " + karakter);
                 karakter = 'A' + 32;
                 System.out.println("Yeni Karakter İkinci İşlem: " + karakter);
+                txtCalistir.setVisibility(View.VISIBLE);
             }
         });
 
