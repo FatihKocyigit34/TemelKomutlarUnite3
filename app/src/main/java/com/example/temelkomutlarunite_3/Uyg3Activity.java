@@ -13,7 +13,7 @@ public class Uyg3Activity extends AppCompatActivity {
 
     Button btnChar;
     Button btnGeri;
-    TextView txtCalistir;
+    TextView txtCalistirUyg3;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -21,7 +21,7 @@ public class Uyg3Activity extends AppCompatActivity {
         setContentView(R.layout.uyg3_activity);
         btnChar = findViewById(R.id.btnChar);
         btnGeri = findViewById(R.id.btnGeri);
-        txtCalistir = findViewById(R.id.txtCalistir);
+        txtCalistirUyg3 = findViewById(R.id.txtCalistirUyg5);
 
         btnChar.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -32,7 +32,7 @@ public class Uyg3Activity extends AppCompatActivity {
                 System.out.println("Yeni Karakter İlk İşlem: " + karakter);
                 karakter = 'A' + 32;
                 System.out.println("Yeni Karakter İkinci İşlem: " + karakter);
-                txtCalistir.setVisibility(View.VISIBLE);
+                txtCalistirUyg3.setVisibility(View.VISIBLE);
             }
         });
 

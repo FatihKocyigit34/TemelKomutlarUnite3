@@ -9,19 +9,17 @@ import android.widget.TextView;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-import org.w3c.dom.Text;
-
 public class Uyg4Activity extends AppCompatActivity {
     Button btnGeri;
     Button btnAscii;
-    TextView txtCalistir;
+    TextView txtCalistirUyg4;
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.uyg4_activity);
         btnGeri = findViewById(R.id.btnGeri);
         btnAscii = findViewById(R.id.btnAscii);
-        txtCalistir = findViewById(R.id.txtCalistir);
+        txtCalistirUyg4 = findViewById(R.id.txtCalistirUyg5);
 
         btnGeri.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -38,7 +36,7 @@ public class Uyg4Activity extends AppCompatActivity {
                 int ascii = (int) + 'a';
                 System.out.println(karakter);
                 System.out.println(ascii);
-                txtCalistir.setVisibility(View.VISIBLE);
+                txtCalistirUyg4.setVisibility(View.VISIBLE);
             }
         });
     }
