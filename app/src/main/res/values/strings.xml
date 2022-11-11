@@ -1,6 +1,12 @@
 <resources>
     <string name="app_name">Temel Komutlar Unite-3</string>
     <string name="uyg1_name">Uygulama 1 (Mantıksal Veri Tipi)</string>
-    <string name="uyg2_name">Uygulama 2(Tam Sayılar)</string>
+    <string name="uyg2_name">Uygulama 2 (Tam Sayılar)</string>
+    <string name="uyg3_name">Uygulama 3 (Char Veri Tipi)</string>
     <string name="geri_don">Geri Dön</string>
+    <string name="long1">Long</string>
+    <string name="int1">İnt</string>
+    <string name="short1">Short</string>
+    <string name="byte1">Byte</string>
+    <string name="char_veri_tipini_test_et">Char Veri Tipini Test Et</string>
 </resources>
