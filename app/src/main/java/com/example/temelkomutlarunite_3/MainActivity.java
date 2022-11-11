@@ -12,14 +12,20 @@ public class MainActivity extends AppCompatActivity {
     Button btnUyg1;
     Button btnUyg2;
     Button btnUyg3;
+    Button btnUyg4;
+    Button btnUyg5;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         setContentView(R.layout.activity_main);
+
         btnUyg1 = findViewById(R.id.btnUyg1);
         btnUyg2 = findViewById(R.id.btnUyg2);
         btnUyg3 = findViewById(R.id.btnUyg3);
+        btnUyg4 = findViewById(R.id.btnUyg4);
+        btnUyg5 = findViewById(R.id.btnUyg5);
 
         btnUyg1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -28,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(i);
             }
         });
+
         btnUyg2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -43,5 +50,22 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(i);
             }
         });
+
+        btnUyg4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(MainActivity.this, Uyg4Activity.class);
+                startActivity(i);
+            }
+        });
+
+        btnUyg5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(MainActivity.this, Uyg5Activity.class);
+                startActivity(i);
+            }
+        });
+
     }
 }
