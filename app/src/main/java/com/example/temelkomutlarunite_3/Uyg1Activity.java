@@ -17,8 +17,8 @@ public class Uyg1Activity extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.uyg1_activity);
-
-        txtCalistir = findViewById(R.id.txtCalistirUyg5);
+        btnCalistir = findViewById(R.id.btnCalistir);
+        txtCalistir = findViewById(R.id.txtCalistir7);
         btnGeri = findViewById(R.id.btnGeri);
 
         btnGeri.setOnClickListener(new View.OnClickListener() {

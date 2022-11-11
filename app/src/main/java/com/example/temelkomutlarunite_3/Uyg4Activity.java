@@ -19,7 +19,7 @@ public class Uyg4Activity extends AppCompatActivity {
         setContentView(R.layout.uyg4_activity);
         btnGeri = findViewById(R.id.btnGeri);
         btnAscii = findViewById(R.id.btnAscii);
-        txtCalistirUyg4 = findViewById(R.id.txtCalistirUyg5);
+        txtCalistirUyg4 = findViewById(R.id.txtCalistir);
 
         btnGeri.setOnClickListener(new View.OnClickListener() {
             @Override

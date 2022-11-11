@@ -19,17 +19,19 @@ public class Uyg5Activity extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.uyg5_activity);
-        txtCalistirUyg5 = findViewById(R.id.txtCalistirUyg5);
+        txtCalistirUyg5 = findViewById(R.id.txtCalistir);
+
+        btnGeri = findViewById(R.id.btnGeri);
         btnUyg5 = findViewById(R.id.btnUyg5);
 
-        btnUyg5.setOnClickListener(new View.OnClickListener() {
+       btnUyg5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 float ondaliklisayi1 = 1f/3f;
                 double ondaliklisayi2 = 1d/3d;
                 System.out.println("Float Sayı (1 / 3): " + ondaliklisayi1);
                 System.out.println("Double Sayı (1 / 3): " + ondaliklisayi2);
-                txtCalistirUyg5.setVisibility(View.VISIBLE);
+               txtCalistirUyg5.setVisibility(View.VISIBLE);
             }
         });
 

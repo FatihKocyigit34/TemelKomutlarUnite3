@@ -21,7 +21,7 @@ public class Uyg3Activity extends AppCompatActivity {
         setContentView(R.layout.uyg3_activity);
         btnChar = findViewById(R.id.btnChar);
         btnGeri = findViewById(R.id.btnGeri);
-        txtCalistirUyg3 = findViewById(R.id.txtCalistirUyg5);
+        txtCalistirUyg3 = findViewById(R.id.txtCalistir);
 
         btnChar.setOnClickListener(new View.OnClickListener() {
             @Override
