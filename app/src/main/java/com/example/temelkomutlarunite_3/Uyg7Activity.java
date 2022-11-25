@@ -2,8 +2,10 @@ package com.example.temelkomutlarunite_3;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.text.Editable;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.TextView;
 
 import androidx.annotation.Nullable;
@@ -17,7 +19,10 @@ public class Uyg7Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.uyg7_activity);
-
+        EditText xsayi;
+        xsayi = findViewById(R.id.editTxtSayi1);
+        EditText ysayi;
+        ysayi = findViewById(R.id.editTxtSayi2);
         TextView txtCalistirildi;
         txtCalistirildi = findViewById(R.id.txtCalistirildi);
         Button btnCalistir;
@@ -25,8 +30,8 @@ public class Uyg7Activity extends AppCompatActivity {
         btnCalistir.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                int x = 10;
-                int y = 9;
+                int x = Integer.parseInt(xsayi.getText().toString());
+                int y = Integer.parseInt(ysayi.getText().toString());
                 int toplama = x + y;
                 int fark = x - y;
                 int carpma = x * y;

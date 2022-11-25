@@ -17,5 +17,7 @@
     <string name="ondalikli_sayiyi_test_et">Ondalıklı Sayıyı Test Et</string>
     <string name="calistir">Çalıştır</string>
     <string name="calistirildi">Çalıştırıldı</string>
+    <string name="say_1">Sayı 1</string>
+    <string name="say_2">Sayı 2</string>
 
 </resources>
