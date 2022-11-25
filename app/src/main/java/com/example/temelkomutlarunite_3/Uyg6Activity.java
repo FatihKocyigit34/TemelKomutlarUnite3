@@ -23,7 +23,7 @@ public class Uyg6Activity extends AppCompatActivity {
         btnCalistir.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                final int pi = 3;
+                final double pi = 3.14d;
                 int yaricap = 6;
                 System.out.println("Çevre = " + (2*pi*yaricap));
                 txtCalistirildi.setVisibility(View.VISIBLE);
