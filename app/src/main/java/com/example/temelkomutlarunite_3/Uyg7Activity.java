@@ -2,7 +2,6 @@ package com.example.temelkomutlarunite_3;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.text.Editable;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -11,14 +10,30 @@ import android.widget.TextView;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-import org.w3c.dom.Text;
-
 public class Uyg7Activity extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.uyg7_activity);
+
+        //----------------TextView Tanımlama Kısmı----------------
+        TextView txtToplama;
+        txtToplama = findViewById(R.id.txtToplama);
+        TextView txtCikarma;
+        txtCikarma = findViewById(R.id.txtCikarma);
+        TextView txtBolme;
+        txtBolme = findViewById(R.id.txtBolme);
+        TextView txtMod;
+        txtMod = findViewById(R.id.txtMod);
+        TextView txtCarpma;
+        txtCarpma = findViewById(R.id.txtCarpma);
+        TextView txtArtis;
+        txtArtis = findViewById(R.id.txtArtis);
+        TextView txtAzalis;
+        txtAzalis = findViewById(R.id.txtAzalis);
+
+        //----------------EditText ve Button Tanımlama Kısmı----------------
         EditText xsayi;
         xsayi = findViewById(R.id.editTxtSayi1);
         EditText ysayi;
@@ -27,26 +42,45 @@ public class Uyg7Activity extends AppCompatActivity {
         txtCalistirildi = findViewById(R.id.txtCalistirildi);
         Button btnCalistir;
         btnCalistir = findViewById(R.id.btnCalistir);
+        //---------------------------------------
+
         btnCalistir.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 int x = Integer.parseInt(xsayi.getText().toString());
                 int y = Integer.parseInt(ysayi.getText().toString());
+                //---------------------------------------
                 int toplama = x + y;
+                txtToplama.setText("Toplamı: "+toplama);
+                //---------------------------------------
                 int fark = x - y;
+                txtCikarma.setText("Farkı: "+fark);
+                //---------------------------------------
                 int carpma = x * y;
+                txtCarpma.setText("Çarpımı: "+carpma);
+                //---------------------------------------
                 int mod = x % y;
+                txtMod.setText("Modu: "+mod);
+                //---------------------------------------
                 int bolme = x / y;
+                txtBolme.setText("Bölümü: "+bolme);
+                //---------------------------------------
                 x++;
+                txtArtis.setText("Artışı: "+ x);
+                //---------------------------------------
                 y--;
-                System.out.println("Toplamı: " + toplama);
+                txtAzalis.setText("Azalışı: "+ y);
+                //---------------------------------------
+                txtCalistirildi.setVisibility(View.VISIBLE);
+                //---------------------------------------
+
+                /*System.out.println("Toplamı: " + toplama);
                 System.out.println("Farkı: " + fark);
                 System.out.println("Çarpımı: " + carpma);
                 System.out.println("Mod: " + mod);
                 System.out.println("Bölümü: " + bolme);
                 System.out.println("Arttırma: " + x);
-                System.out.println("Azaltma: " + y);
-                txtCalistirildi.setVisibility(View.VISIBLE);
+                System.out.println("Azaltma: " + y);*/
 
             }
         });
