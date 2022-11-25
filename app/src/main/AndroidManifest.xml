@@ -28,6 +28,7 @@
         <activity android:name=".Uyg3Activity" android:label="@string/uyg3_name"></activity>
         <activity android:name=".Uyg4Activity" android:label="@string/uyg4_name"></activity>
         <activity android:name=".Uyg5Activity" android:label="@string/uyg5_name"></activity>
+        <activity android:name=".Uyg6Activity" android:label="@string/uyg6_name"></activity>
     </application>
 
 </manifest>
