@@ -28,13 +28,33 @@ public class Uyg11Activity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Log.i(TAG, "Düğmeye Tıklandı");
+                Log.v(TAG,"Düğmeye Tıklandı");
+                Log.d(TAG, "Düğmeye Tıklandı");
+                Log.w(TAG, "Düğmeye Tıklandı");
+                Log.e(TAG, "Düğmeye Tıklandı");
                 Log.i(TAG, "Edit Text sayi Değişkenine Tanımlandı");
+                Log.v(TAG,"Edit Text sayi Değişkenine Tanımlandı");
+                Log.d(TAG, "Edit Text sayi Değişkenine Tanımlandı");
+                Log.w(TAG, "Edit Text sayi Değişkenine Tanımlandı");
+                Log.e(TAG, "Edit Text sayi Değişkenine Tanımlandı");
                 int sayi = Integer.parseInt(txtEdit11.getText().toString());
                 Log.i(TAG, "Edit Textin İçine Veri Girildi");
+                Log.v(TAG,"Edit Textin İçine Veri Girildi");
+                Log.d(TAG, "Edit Textin İçine Veri Girildi");
+                Log.w(TAG, "Edit Textin İçine Veri Girildi");
+                Log.e(TAG, "Edit Textin İçine Veri Girildi");
                 String yazi = toString();
                 Log.i(TAG, "sayi Değişkeni String İfadeye Çevrildi");
+                Log.v(TAG,"sayi Değişkeni String İfadeye Çevrildi");
+                Log.d(TAG, "sayi Değişkeni String İfadeye Çevrildi");
+                Log.w(TAG, "sayi Değişkeni String İfadeye Çevrildi");
+                Log.e(TAG, "sayi Değişkeni String İfadeye Çevrildi");
                 yazi = yazi + " String İfade";
                 Log.i(TAG,"yazi Değişkeninin yanına String İfade Yazdırıldı");
+                Log.v(TAG,"yazi Değişkeninin yanına String İfade Yazdırıldı");
+                Log.d(TAG, "yazi Değişkeninin yanına String İfade Yazdırıldı");
+                Log.w(TAG, "yazi Değişkeninin yanına String İfade Yazdırıldı");
+                Log.e(TAG, "yazi Değişkeninin yanına String İfade Yazdırıldı");
 
 
             }
