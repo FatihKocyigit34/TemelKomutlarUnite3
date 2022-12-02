@@ -4,6 +4,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <TextView
+        android:id="@+id/txtMantiksalDegil2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mantıksal değil Operatörü:"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.653" />
+
     <EditText
         android:id="@+id/editTxtSayi2_10"
         android:layout_width="wrap_content"
@@ -89,7 +102,7 @@
         app:layout_constraintVertical_bias="0.552" />
 
     <Button
-        android:id="@+id/btnGeridon2_"
+        android:id="@+id/btnGeridon2_10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/geri_don"
