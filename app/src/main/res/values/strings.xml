@@ -9,7 +9,7 @@
     <string name="uyg7_name">Uygulama 7 (Aritmetik Operatörler)</string>
     <string name="uyg8_name">Uygulama 8 (Atama Operatörleri)</string>
     <string name="uyg9_name">Uygulama 9 (Karşılaştırma Operatörleri)</string>
-    <string name="uyg10_name">Uygulama 10()</string>
+    <string name="uyg10_name">Uygulama 10 (Mantıksal Operatörler)</string>
     <string name="geri_don">Geri Dön</string>
     <string name="long1">Long</string>
     <string name="int1">İnt</string>
@@ -28,5 +28,4 @@
     <string name="Topla_Ata">Topla ve ata operatörü</string>
     <string name="Carp_Ata">Çarp ve ata operatörü</string>
     <string name="Mod_Ata">Mod al ve ata operatörü</string>
-
 </resources>
