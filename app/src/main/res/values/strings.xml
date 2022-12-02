@@ -7,6 +7,9 @@
     <string name="uyg5_name">Uygulama 5 (Ondalık Veri Tipleri)</string>
     <string name="uyg6_name">Uygulama 6 (Sabit Veri Tipleri Pi Ve Yarıçap Bulma)</string>
     <string name="uyg7_name">Uygulama 7 (Aritmetik Operatörler)</string>
+    <string name="uyg8_name">Uygulama 8 (Atama Operatörleri)</string>
+    <string name="uyg9_name">Uygulama 9 (Karşılaştırma Operatörleri)</string>
+    <string name="uyg10_name">Uygulama 10()</string>
     <string name="geri_don">Geri Dön</string>
     <string name="long1">Long</string>
     <string name="int1">İnt</string>
@@ -19,5 +22,11 @@
     <string name="calistirildi">Çalıştırıldı</string>
     <string name="say_1">Sayı 1</string>
     <string name="say_2">Sayı 2</string>
+    <string name="Cikart_Ata">Çıkart ve ata operatörü</string>
+    <string name="Basit_Atama">Basit atama operatörü</string>
+    <string name="Bol_Ata">Böl ve ata operatörü</string>
+    <string name="Topla_Ata">Topla ve ata operatörü</string>
+    <string name="Carp_Ata">Çarp ve ata operatörü</string>
+    <string name="Mod_Ata">Mod al ve ata operatörü</string>
 
 </resources>

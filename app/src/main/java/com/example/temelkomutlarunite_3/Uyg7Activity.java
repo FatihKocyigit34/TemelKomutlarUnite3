@@ -19,19 +19,19 @@ public class Uyg7Activity extends AppCompatActivity {
 
         //----------------TextView Tanımlama Kısmı----------------
         TextView txtToplama;
-        txtToplama = findViewById(R.id.txtToplama);
+        txtToplama = findViewById(R.id.txtToplama2);
         TextView txtCikarma;
-        txtCikarma = findViewById(R.id.txtCikarma);
+        txtCikarma = findViewById(R.id.txtCikarma2);
         TextView txtBolme;
-        txtBolme = findViewById(R.id.txtBolme);
+        txtBolme = findViewById(R.id.txtBolme2);
         TextView txtMod;
-        txtMod = findViewById(R.id.txtMod);
+        txtMod = findViewById(R.id.txtMod2);
         TextView txtCarpma;
-        txtCarpma = findViewById(R.id.txtCarpma);
+        txtCarpma = findViewById(R.id.txtCarpma2);
         TextView txtArtis;
-        txtArtis = findViewById(R.id.txtArtis);
+        txtArtis = findViewById(R.id.txtArtis2);
         TextView txtAzalis;
-        txtAzalis = findViewById(R.id.txtAzalis);
+        txtAzalis = findViewById(R.id.txtAzalis2);
 
         //----------------EditText ve Button Tanımlama Kısmı----------------
         EditText xsayi;
